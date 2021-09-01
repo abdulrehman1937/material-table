@@ -1,5 +1,5 @@
-import { Grid, MuiThemeProvider, Button } from "@material-ui/core";
-import { createMuiTheme } from "@material-ui/core/styles";
+import { Grid, ThemeProvider, StyledEngineProvider, Button, adaptV4Theme } from "@material-ui/core";
+import { createTheme } from "@material-ui/core/styles";
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import MaterialTable from "../src";
@@ -7,12 +7,12 @@ import Typography from "@material-ui/core/Typography";
 
 let direction = "ltr";
 // direction = 'rtl';
-const theme = createMuiTheme({
+const theme = createTheme(adaptV4Theme({
   direction: direction,
   palette: {
-    type: "light",
+    mode: "light",
   },
-});
+}));
 
 const bigData = [];
 for (let i = 0; i < 1; i++) {
@@ -474,9 +474,9 @@ class App extends Component {
   };
 
   render() {
-    return (
-      <>
-        <MuiThemeProvider theme={theme}>
+    return <>
+      <StyledEngineProvider injectFirst>
+        <ThemeProvider theme={theme}>
           <div style={{ maxWidth: "100%", direction }}>
             <Grid container>
               <Grid item xs={12}>
@@ -664,9 +664,9 @@ class App extends Component {
               }
             /> */}
           </div>
-        </MuiThemeProvider>
-      </>
-    );
+        </ThemeProvider>
+      </StyledEngineProvider>
+    </>;
   }
 }
 

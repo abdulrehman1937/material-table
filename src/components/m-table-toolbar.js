@@ -9,8 +9,8 @@ import TextField from "@material-ui/core/TextField";
 import Toolbar from "@material-ui/core/Toolbar";
 import Tooltip from "@material-ui/core/Tooltip";
 import Typography from "@material-ui/core/Typography";
-import withStyles from "@material-ui/core/styles/withStyles";
-import { lighten } from "@material-ui/core/styles/colorManipulator";
+import { lighten } from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/styles';
 import classNames from "classnames";
 import { CsvBuilder } from "filefy";
 import PropTypes, { oneOf } from "prop-types";
@@ -149,7 +149,7 @@ export class MTableToolbar extends React.Component {
                   disabled={!this.state.searchText}
                   onClick={() => this.onSearchChange("")}
                   aria-label={localization.clearSearchAriaLabel}
-                >
+                  size="large">
                   <this.props.icons.ResetSearch
                     fontSize="small"
                     aria-label="clear"
@@ -189,7 +189,7 @@ export class MTableToolbar extends React.Component {
                   })
                 }
                 aria-label={localization.showColumnsAriaLabel}
-              >
+                size="large">
                 <this.props.icons.ViewColumn />
               </IconButton>
             </Tooltip>
@@ -247,7 +247,7 @@ export class MTableToolbar extends React.Component {
                   })
                 }
                 aria-label={localization.exportAriaLabel}
-              >
+                size="large">
                 <this.props.icons.Export />
               </IconButton>
             </Tooltip>
@@ -442,7 +442,7 @@ export const styles = (theme) => ({
     paddingRight: theme.spacing(1),
   },
   highlight:
-    theme.palette.type === "light"
+    theme.palette.mode === "light"
       ? {
           color: theme.palette.secondary.main,
           backgroundColor: lighten(theme.palette.secondary.light, 0.85),

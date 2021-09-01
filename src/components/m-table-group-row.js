@@ -126,37 +126,35 @@ export default class MTableGroupRow extends React.Component {
 
     let separator = this.props.options.groupRowSeparator || ": ";
 
-    return (
-      <>
-        <TableRow>
-          {freeCells}
-          <this.props.components.Cell
-            colSpan={colSpan}
-            padding="none"
-            columnDef={column}
-            value={value}
-            icons={this.props.icons}
-          >
-            <IconButton
-              style={{
-                transition: "all ease 200ms",
-                ...this.rotateIconStyle(this.props.groupData.isExpanded),
-              }}
-              onClick={(event) => {
-                this.props.onGroupExpandChanged(this.props.path);
-              }}
-            >
-              <this.props.icons.DetailPanel />
-            </IconButton>
-            <b>
-              {title}
-              {separator}
-            </b>
-          </this.props.components.Cell>
-        </TableRow>
-        {detail}
-      </>
-    );
+    return <>
+      <TableRow>
+        {freeCells}
+        <this.props.components.Cell
+          colSpan={colSpan}
+          padding="none"
+          columnDef={column}
+          value={value}
+          icons={this.props.icons}
+        >
+          <IconButton
+            style={{
+              transition: "all ease 200ms",
+              ...this.rotateIconStyle(this.props.groupData.isExpanded),
+            }}
+            onClick={(event) => {
+              this.props.onGroupExpandChanged(this.props.path);
+            }}
+            size="large">
+            <this.props.icons.DetailPanel />
+          </IconButton>
+          <b>
+            {title}
+            {separator}
+          </b>
+        </this.props.components.Cell>
+      </TableRow>
+      {detail}
+    </>;
   }
 }
 
