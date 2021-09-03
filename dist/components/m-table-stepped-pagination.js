@@ -25,15 +25,15 @@ var _getPrototypeOf2 = _interopRequireDefault(require("@babel/runtime/helpers/ge
 
 var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
 
-var _IconButton = _interopRequireDefault(require("@material-ui/core/IconButton"));
+var _IconButton = _interopRequireDefault(require("@mui/material/IconButton"));
 
-var _styles = require("@material-ui/styles");
+var _styles = require("@mui/styles");
 
-var _Tooltip = _interopRequireDefault(require("@material-ui/core/Tooltip"));
+var _Tooltip = _interopRequireDefault(require("@mui/material/Tooltip"));
 
-var _Hidden = _interopRequireDefault(require("@material-ui/core/Hidden"));
+var _Hidden = _interopRequireDefault(require("@mui/material/Hidden"));
 
-var _Button = _interopRequireDefault(require("@material-ui/core/Button"));
+var _Button = _interopRequireDefault(require("@mui/material/Button"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 

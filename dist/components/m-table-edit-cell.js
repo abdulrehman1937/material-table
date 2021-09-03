@@ -29,13 +29,13 @@ var React = _interopRequireWildcard(require("react"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
-var _TableCell = _interopRequireDefault(require("@material-ui/core/TableCell"));
+var _TableCell = _interopRequireDefault(require("@mui/material/TableCell"));
 
-var _CircularProgress = _interopRequireDefault(require("@material-ui/core/CircularProgress"));
+var _CircularProgress = _interopRequireDefault(require("@mui/material/CircularProgress"));
 
-var _styles = require("@material-ui/core/styles");
+var _styles = require("@mui/material/styles");
 
-var _styles2 = require("@material-ui/styles");
+var _styles2 = require("@mui/styles");
 
 var _ = require("..");
 

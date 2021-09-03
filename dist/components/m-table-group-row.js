@@ -27,11 +27,11 @@ var _getPrototypeOf2 = _interopRequireDefault(require("@babel/runtime/helpers/ge
 
 var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
 
-var _TableCell = _interopRequireDefault(require("@material-ui/core/TableCell"));
+var _TableCell = _interopRequireDefault(require("@mui/material/TableCell"));
 
-var _TableRow = _interopRequireDefault(require("@material-ui/core/TableRow"));
+var _TableRow = _interopRequireDefault(require("@mui/material/TableRow"));
 
-var _IconButton = _interopRequireDefault(require("@material-ui/core/IconButton"));
+var _IconButton = _interopRequireDefault(require("@mui/material/IconButton"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 

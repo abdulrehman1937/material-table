@@ -31,13 +31,13 @@ var _getPrototypeOf2 = _interopRequireDefault(require("@babel/runtime/helpers/ge
 
 var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
 
-var _Table = _interopRequireDefault(require("@material-ui/core/Table"));
+var _Table = _interopRequireDefault(require("@mui/material/Table"));
 
-var _TableFooter = _interopRequireDefault(require("@material-ui/core/TableFooter"));
+var _TableFooter = _interopRequireDefault(require("@mui/material/TableFooter"));
 
-var _TableRow = _interopRequireDefault(require("@material-ui/core/TableRow"));
+var _TableRow = _interopRequireDefault(require("@mui/material/TableRow"));
 
-var _LinearProgress = _interopRequireDefault(require("@material-ui/core/LinearProgress"));
+var _LinearProgress = _interopRequireDefault(require("@mui/material/LinearProgress"));
 
 var _reactDoubleScrollbar = _interopRequireDefault(require("react-double-scrollbar"));
 
@@ -53,7 +53,7 @@ var _debounce = require("debounce");
 
 var _fastDeepEqual = _interopRequireDefault(require("fast-deep-equal"));
 
-var _styles = require("@material-ui/styles");
+var _styles = require("@mui/styles");
 
 var CommonValues = _interopRequireWildcard(require("./utils/common-values"));
 

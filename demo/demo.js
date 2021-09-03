@@ -1,9 +1,9 @@
-import { Grid, ThemeProvider, StyledEngineProvider, Button, adaptV4Theme } from "@material-ui/core";
-import { createTheme } from "@material-ui/core/styles";
+import { Grid, ThemeProvider, StyledEngineProvider, Button, adaptV4Theme } from "@mui/material";
+import { createTheme } from "@mui/material/styles";
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import MaterialTable from "../src";
-import Typography from "@material-ui/core/Typography";
+import Typography from "@mui/material/Typography";
 
 let direction = "ltr";
 // direction = 'rtl';

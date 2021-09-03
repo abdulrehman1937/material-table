@@ -27,29 +27,29 @@ var _getPrototypeOf2 = _interopRequireDefault(require("@babel/runtime/helpers/ge
 
 var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
 
-var _Checkbox = _interopRequireDefault(require("@material-ui/core/Checkbox"));
+var _Checkbox = _interopRequireDefault(require("@mui/material/Checkbox"));
 
-var _FormControlLabel = _interopRequireDefault(require("@material-ui/core/FormControlLabel"));
+var _FormControlLabel = _interopRequireDefault(require("@mui/material/FormControlLabel"));
 
-var _IconButton = _interopRequireDefault(require("@material-ui/core/IconButton"));
+var _IconButton = _interopRequireDefault(require("@mui/material/IconButton"));
 
-var _InputAdornment = _interopRequireDefault(require("@material-ui/core/InputAdornment"));
+var _InputAdornment = _interopRequireDefault(require("@mui/material/InputAdornment"));
 
-var _Menu = _interopRequireDefault(require("@material-ui/core/Menu"));
+var _Menu = _interopRequireDefault(require("@mui/material/Menu"));
 
-var _MenuItem = _interopRequireDefault(require("@material-ui/core/MenuItem"));
+var _MenuItem = _interopRequireDefault(require("@mui/material/MenuItem"));
 
-var _TextField = _interopRequireDefault(require("@material-ui/core/TextField"));
+var _TextField = _interopRequireDefault(require("@mui/material/TextField"));
 
-var _Toolbar = _interopRequireDefault(require("@material-ui/core/Toolbar"));
+var _Toolbar = _interopRequireDefault(require("@mui/material/Toolbar"));
 
-var _Tooltip = _interopRequireDefault(require("@material-ui/core/Tooltip"));
+var _Tooltip = _interopRequireDefault(require("@mui/material/Tooltip"));
 
-var _Typography = _interopRequireDefault(require("@material-ui/core/Typography"));
+var _Typography = _interopRequireDefault(require("@mui/material/Typography"));
 
-var _styles = require("@material-ui/core/styles");
+var _styles = require("@mui/material/styles");
 
-var _styles2 = require("@material-ui/styles");
+var _styles2 = require("@mui/styles");
 
 var _classnames = _interopRequireDefault(require("classnames"));
 

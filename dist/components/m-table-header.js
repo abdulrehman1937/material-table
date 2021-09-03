@@ -31,21 +31,21 @@ var React = _interopRequireWildcard(require("react"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
-var _TableHead = _interopRequireDefault(require("@material-ui/core/TableHead"));
+var _TableHead = _interopRequireDefault(require("@mui/material/TableHead"));
 
-var _TableRow = _interopRequireDefault(require("@material-ui/core/TableRow"));
+var _TableRow = _interopRequireDefault(require("@mui/material/TableRow"));
 
-var _TableCell = _interopRequireDefault(require("@material-ui/core/TableCell"));
+var _TableCell = _interopRequireDefault(require("@mui/material/TableCell"));
 
-var _TableSortLabel = _interopRequireDefault(require("@material-ui/core/TableSortLabel"));
+var _TableSortLabel = _interopRequireDefault(require("@mui/material/TableSortLabel"));
 
-var _Checkbox = _interopRequireDefault(require("@material-ui/core/Checkbox"));
+var _Checkbox = _interopRequireDefault(require("@mui/material/Checkbox"));
 
-var _styles = require("@material-ui/styles");
+var _styles = require("@mui/styles");
 
 var _reactBeautifulDnd = require("react-beautiful-dnd");
 
-var _core = require("@material-ui/core");
+var _material = require("@mui/material");
 
 var CommonValues = _interopRequireWildcard(require("../utils/common-values"));
 
@@ -170,7 +170,7 @@ var MTableHeader = /*#__PURE__*/function (_React$Component) {
         }
 
         if (columnDef.tooltip) {
-          content = /*#__PURE__*/React.createElement(_core.Tooltip, {
+          content = /*#__PURE__*/React.createElement(_material.Tooltip, {
             title: columnDef.tooltip,
             placement: "bottom"
           }, /*#__PURE__*/React.createElement("span", null, content));

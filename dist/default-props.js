@@ -15,19 +15,19 @@ var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends")
 
 var _react = _interopRequireDefault(require("react"));
 
-var _CircularProgress = _interopRequireDefault(require("@material-ui/core/CircularProgress"));
+var _CircularProgress = _interopRequireDefault(require("@mui/material/CircularProgress"));
 
-var _Icon = _interopRequireDefault(require("@material-ui/core/Icon"));
+var _Icon = _interopRequireDefault(require("@mui/material/Icon"));
 
-var _Paper = _interopRequireDefault(require("@material-ui/core/Paper"));
+var _Paper = _interopRequireDefault(require("@mui/material/Paper"));
 
-var _TablePagination = _interopRequireDefault(require("@material-ui/core/TablePagination"));
+var _TablePagination = _interopRequireDefault(require("@mui/material/TablePagination"));
 
 var MComponents = _interopRequireWildcard(require("./components"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
-var _styles = require("@material-ui/core/styles");
+var _styles = require("@mui/material/styles");
 
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 

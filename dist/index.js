@@ -28,7 +28,7 @@ var _propTypes = require("./prop-types");
 
 var _materialTable = _interopRequireDefault(require("./material-table"));
 
-var _styles = require("@material-ui/styles");
+var _styles = require("@mui/styles");
 
 var _components = require("./components");
 
